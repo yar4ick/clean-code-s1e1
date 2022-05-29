@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -12,7 +12,7 @@ body {
     text-align: right;
 }
 
-.aaa img {
+.aaa .image {
     width: 100%;
 
 }
@@ -51,7 +51,7 @@ ul {
 }
 
 li, 
-h3 {
+.h3 {
     list-style: none;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.h3,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
@@ -143,13 +143,13 @@ li >    input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+button.delete .image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.delete .image:hover {
     transform: rotateZ(0);
 }
 
