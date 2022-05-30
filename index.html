@@ -17,27 +17,27 @@
         <input class="input task" id="new-task" type="text">
         <button class="button">Add</button>
       </section>
-      <section class="tasks-list-undone">
+      <section class="tasks-list-incompleted">
         <h3 class="h3">Todo</h3>
-        <ul id="incomplete-tasks">
-          <li>
+        <ul class="list" id="incomplete-tasks">
+          <li class="list__item">
             <input class="input" type="checkbox"><label class="label task">Pay Bills</label>
-            <input class="input task" type="text"><button class="button edit">Edit</button>
+            <input class="input text" type="text"><button class="button edit">Edit</button>
             <button class="button delete"><img class="image" src="./remove.svg" alt="remove-icon"></button>
           </li>
-          <li class="task-edit">
+          <li class="task-edit list__item">
             <input class="input" type="checkbox"><label class="label task">Go Shopping</label>
-            <input class="input task" type="text" value="Go Shopping"><button class="button edit">Save</button>
+            <input class="input text" type="text" value="Go Shopping"><button class="button edit">Save</button>
             <button class="button delete"><img class="image" src="./remove.svg" alt="remove-icon"></button>
           </li>
         </ul>
       </section>
-      <section class="tasks-list-done">
+      <section class="tasks-list-completed">
         <h3 class="h3">Completed</h3>
-        <ul id="completed-tasks">
-          <li>
+        <ul class="list" id="completed-tasks">
+          <li class="list__item">
             <input class="input" type="checkbox" checked><label class="label task">See the Doctor</label>
-            <input class="input task" type="text"><button class="button edit">Edit</button>
+            <input class="input text" type="text"><button class="button edit">Edit</button>
             <button class="button delete"><img class="image" src="./remove.svg" alt="remove-icon"></button>
           </li>
         </ul>
